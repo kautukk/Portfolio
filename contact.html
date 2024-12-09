@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <div class="navigations">
+            <nav>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="project.html">Projects</a></li>
+                  <li><a href="work.html">Work</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <div class="line"></div>
+    <div class="head">
+        <h2>Contact</h2>
+    </div>
+    <div class="main">
+        <div class="main-text"><h3>Have a project in mind? Drop me a line to get started.</h3></div>
+        <div class="container">
+            <form action="submit.php" method="post">
+                <div class="input-group">
+                    <input type="text" id="name" name="name" required placeholder="Name (required)">
+                    <input type="email" id="email" name="email" required placeholder="Email (required)">
+                </div>
+                <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

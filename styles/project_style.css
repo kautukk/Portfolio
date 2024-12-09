@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2C3331;
+  color: #8B9D83; 
+}
+
+.navigations {
+  display: flex;
+  justify-content: center;
+  background-color: #6A7B76; 
+}
+
+.navigations ul {
+  display: flex;
+}
+
+.navigations ul li {
+  display: flex;
+  margin: 15px;
+}
+
+.navigations ul li a {
+  text-decoration: none;
+  color: #040303;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigations ul li a:hover {
+  color: #8B9D83; 
+}
+
+.line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  background-color: #3A4E48; 
+}
+
+.head {
+  padding-left: 160px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: #8B9D83; 
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8B9D83; 
+}
+
+.main-text h3 {
+  margin-bottom: 14px;
+}
+
+.main-text p {
+  padding-right: 150px;
+}
+
+h3 {
+  padding-bottom: 3%;
+}
+
+p {
+  padding-bottom: 6%;
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+  padding-left: 160px;
+  background-color: #040303; 
+}
+
+.freightr{
+  display: flex;
+  flex-direction: row;
+}
+
+.imagef{
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.blackjack {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageb {
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.yatzy {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagey {
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  padding-bottom: 10%;
+}
+
+.foot {
+  height: 50px;
+  background-color: #2C3331; 
+  color: #8B9D83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.freightr a {
+  color: #8B9D83; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.blackjack a {
+  color: #8B9D83; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.yatzy a {
+  color: #8B9D83; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.freightr a:hover{
+  color: #3A4E48;
+}
+
+.blackjack a:hover {
+  color: #3A4E48; 
+}
+
+.yatzy a:hover {
+  color: #3A4E48; 
+}
